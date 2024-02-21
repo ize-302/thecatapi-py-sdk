@@ -1,6 +1,6 @@
 from thecatapi import TheCatAPI
 
-catapi = TheCatAPI(api_key='live_FkOnFCtfJUcl5A1CvNBnaqXbX2MpjQcG2UbwI7FXr3Jkh7LfLv7EHOGQJMaGDwdU')
+catapi = TheCatAPI('API_KEY_HERE')
 
 # images
 # print(catapi.images.get_images(limit=10, mime_types='png,gif'))
